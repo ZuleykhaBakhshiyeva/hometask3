@@ -1,0 +1,91 @@
+body {
+  margin:auto;
+  max-width: 800px;
+  max-height: 600px;
+}
+.container {
+  position: relative;
+  border: 2px solid brown;
+  background-color: gainsboro;
+  border-radius: 5px;
+  padding:10px 5px 10px 5px;
+  margin: 5px;
+  max-height: 600px;
+  max-width: 800px;
+}
+
+.header{
+  border: 2px solid brown;
+  background-color:darkgray;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  max-height: 70px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+
+.flex-container> div{
+  padding: 10px;
+  font-size: 20px;  
+}
+
+#circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background:brown;
+  padding: 25px;
+  margin-top: 10px;
+}
+  
+.nameandtime{
+  overflow-y: scroll;
+  height: 508px;
+}
+
+.time{
+  color: #999;
+  display: flex;   
+}
+
+.button{
+  background-color: brown;
+  display: flex;
+  justify-self: flex-end;
+}
+
+button{
+  background-color: darkgray;
+  border-radius: 5px;
+  border-color: brown;
+  float:right;
+}
+
+.message{
+  display: flex;
+  align-items: flex-end;
+  justify-content:right;
+  flex-direction: row;
+}
+
+.namesurname{
+  border-left: 2px solid brown;
+}
+
+.msgbox {
+  position: relative;
+  border: 2px solid brown;
+  background-color: gainsboro;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  width: 528px;
+}
+
+span{
+  color: brown;
+}
